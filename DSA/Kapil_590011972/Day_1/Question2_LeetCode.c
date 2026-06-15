@@ -26,10 +26,7 @@ int main() {
   }
   long long sumOfArray = sum(arr, len), APsum = len * (len + 1) / 2;
 
-  if (sumOfArray == APsum)
-    printf("%d", len);
-  else
-    printf("%lld", APsum - sumOfArray);
+  printf("%lld", APsum - sumOfArray);
 }
 
 void *summing(void *a) {
